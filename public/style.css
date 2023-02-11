@@ -99,6 +99,10 @@ body {
     position: relative;
 }
 
+ul {
+    display: flex;
+}
+
 .story {
     display: flex;
     height: 100%;
