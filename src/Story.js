@@ -1,14 +1,13 @@
 export default function Story(props) {
-    console.log(props);
     return (
         <ul>
             <li>
                 <div className="story">
                     <div className="imagem">
-                        <img src={props.imagem} alt={props.user} />
+                        <img src={props.imagem} alt={props.usuarioStory} />
                     </div>
                     <div className="usuario">
-                        {props.user}
+                        {props.usuarioStory}
                     </div>
                 </div>
             </li>

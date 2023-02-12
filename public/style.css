@@ -158,6 +158,11 @@ ul {
     margin-top: 18px;
 }
 
+.fotosFeed {
+    display: flex;
+    flex-direction: column;
+}
+
 .post .topo {
     display: flex;
     justify-content: space-between;
@@ -215,6 +220,11 @@ ul {
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+
+.post .fundo .curtidas .texto strong {
+    font-weight: 500;
+    color: #000000;
 }
 
 .post:last-child {
