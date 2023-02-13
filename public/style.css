@@ -237,18 +237,23 @@ li {
     width: 293px;
 }
 
-.sidebar>.usuario {
+.componentes-sideBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.componentes-sideBar>.usuario {
     display: flex;
     align-items: center;
 }
 
-.sidebar>.usuario img {
+.componentes-sideBar>.usuario img {
     width: 56px;
     height: 56px;
     border-radius: 50%;
 }
 
-.sidebar>.usuario .texto {
+.componentes-sideBar>.usuario .texto {
     display: flex;
     flex-direction: column;
     margin-left: 14px;
@@ -256,19 +261,19 @@ li {
     font-weight: 300;
 }
 
-.sidebar>.usuario .texto strong {
+.componentes-sideBar>.usuario .texto strong {
     font-weight: 700;
     color: #262626;
 }
 
-.sidebar .sugestoes .titulo {
+.sidebar .componentes-sideBar .sugestoes .titulo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0 14px;
 }
 
-.sidebar .sugestoes .sugestao {
+.sidebar .componentes-sideBar .sugestoes .sugestao {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,28 +282,28 @@ li {
     margin-bottom: 16px;
 }
 
-.sidebar .sugestoes .sugestao .usuario {
+.sidebar .componentes-sideBar .sugestoes .sugestao .usuario {
     display: flex;
 }
 
-.sidebar .sugestoes img {
+.sidebar .componentes-sideBar .sugestoes img {
     width: 32px;
     height: 32px;
 }
 
-.sidebar .sugestoes .seguir {
+.sidebar .componentes-sideBar .sugestoes .seguir {
     color: #139EF2;
     font-weight: 600;
 }
 
-.sidebar .sugestoes .sugestao .usuario .texto {
+.sidebar .componentes-sideBar .sugestoes .sugestao .usuario .texto {
     margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.sidebar .sugestoes .sugestao .usuario .texto :last-child {
+.sidebar .componentes-sideBar .sugestoes .sugestao .usuario .texto :last-child {
     color: #8E8E8E;
     font-weight: 400;
 }
