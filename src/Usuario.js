@@ -1,12 +1,16 @@
+import DadosUsuario from "./DadosUsuario"
+import { useState } from "react";
 export default function Usuario() {
+
+
+    const nomeInicial = "";
+    const fotoInicial = "https://cdn-icons-png.flaticon.com/512/1946/1946429.png"
+
+    const [nomeUsuario, setUsuario] = useState("");
+    const [fotoUsuario, setFoto] = useState("");
+
+
     return (
-        <div className="usuario">
-            <img src="assets/img/catanacomics.svg" alt="imagem de perfil" />
-            <div className="texto">
-                <span>
-                    <strong>catanacomics</strong>
-                    <ion-icon name="pencil"></ion-icon>
-                </span>
-            </div>
-        </div>)
+        <DadosUsuario nomeInicial={nomeInicial} fotoInicial={fotoInicial} nomeUsuario={nomeUsuario} setUsuario={setUsuario} fotoUsuario={fotoUsuario} setFoto={setFoto} />
+    )
 }
