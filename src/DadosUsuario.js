@@ -15,10 +15,10 @@ export default function DadosUsuario(props) {
 
     return (
         <div className="usuario">
-            <img data-test="profile-image" src={fotoUsuario ? fotoUsuario : novaFoto} alt="imagem de perfil" onClick={alterarFoto} />
+            <img data-test="profile-image" src={novaFoto ? novaFoto : fotoInicial} alt="imagem de perfil" onClick={alterarFoto} />
             <div className="texto">
-                <span>
-                    <strong data-test="name">{nomeInicial}</strong>
+                <span data-test="name">
+                    <strong data-test="name">{novoNome ? novoNome : nomeInicial}</strong>
                     <ion-icon data-test="edit-name" name="pencil" onClick={alterarNomeDoUsuario} ></ion-icon>
                 </span>
             </div>
