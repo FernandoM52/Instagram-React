@@ -11,7 +11,7 @@ export default function Sugestoes() {
 
     return (
         <div className="sugestoes">
-            <div class="titulo">
+            <div className="titulo">
                 Sugestões para você
                 <div>Ver tudo</div>
             </div>
@@ -19,6 +19,14 @@ export default function Sugestoes() {
             <ul>
                 {listaSugestoes.map((sg) => <Sugestao img={sg.img} usr={sg.usr} />)}
             </ul>
+
+            <div className="links">
+                Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos • Localizações • Contas mais relevantes •
+                Hashtags • Idioma
+            </div>
+            <div className="copyright">
+                © 2021 INSTAGRAM DO FACEBOOK
+            </div>
         </div>
     )
 }
