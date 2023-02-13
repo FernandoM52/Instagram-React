@@ -1,7 +1,7 @@
 export default function Post(props) {
     console.log(props);
     return (
-        <ul className="fotosFeed">
+        <ul>
             <li>
                 <div className="post">
                     <div className="topo">

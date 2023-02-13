@@ -99,8 +99,12 @@ body {
     position: relative;
 }
 
-ul {
+.displayStories {
     display: flex;
+}
+
+li {
+    list-style-type: none;
 }
 
 .story {
@@ -156,11 +160,6 @@ ul {
     display: flex;
     flex-direction: column;
     margin-top: 18px;
-}
-
-.fotosFeed {
-    display: flex;
-    flex-direction: column;
 }
 
 .post .topo {
